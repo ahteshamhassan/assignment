@@ -2,6 +2,10 @@ body{
 	background-color: #B964F7;
 	color: #fff;
 }
+}
+.navbar-header button, .navbar-toggle .navbar-header.icon-bar{
+	border: 1px solid #61122f;
+}
 #header-nav{
 	background-color: #5D6D7E;
 	border-radius:0;
@@ -11,7 +15,7 @@ body{
 	margin-top: 10px
 }
 #nav-list a{
-	color: #95IC49;
+	color: #F8F9F9;
 	text-align: center;
 }
 .navbar-brand{
@@ -48,7 +52,7 @@ body{
 	text-align: center;
 	font-weight: bold;
 }
-#mydiv{
+#mydiv1,#mydiv2,#mydiv3{
     background-color: #D4EFDF;
     width: 100%;
 	height: auto;
@@ -67,8 +71,3 @@ body{
 	margin-left: 10px;
 }
 
-@media(min-width: 546px) and (max-width: 767px){
-	.row.mydiv:nth-child(3){
-padding-top: 15px;
-}
-}
